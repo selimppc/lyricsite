@@ -32,15 +32,15 @@ jQuery(function($){
     		progress_bar			:	1,
     		slides 					:  	[		//Slideshow Images
 
-    	{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Shajjad Khan</h2>Caption Goes Here</div>'},
+    	{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Orient Trading & Builders Ltd.</h2>We sell high-end surplus building materials, and select quality Architectural Salvage that is very unique.</div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907-150x150.jpg', title: '<div id="gallery_caption"><h2>Gallery Comments</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labolore magna aliqua.</div>'},
+		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907-150x150.jpg', title: '<div id="gallery_caption"><h2>Reliable Machinaries Ltd.</h2>Reliable Machinery can provide turn-key services for customers, from equipment manufacture and production to operator training.</div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/2887703473_5266d3dc02_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/2887703473_5266d3dc02_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Gallery With Music</h2>Aliquam et elit eu nunc rhoncus viverra quis at felis. Pellentesque habitant morbi tristique senectus et netus et.</div>'},
+		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/2887703473_5266d3dc02_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/2887703473_5266d3dc02_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Industries (Pvt.) Ltd.</h2>Lyric Group is one of the largest Bangladeshi industrial conglomerates. </div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/4111298019_435f091097_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/4111298019_435f091097_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Social Media Sharing</h2>Morbi fringilla feugiat tortor suscipit accumsan. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>'},
+		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/4111298019_435f091097_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/4111298019_435f091097_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Apparels Ltd.</h2>Lyric Group we strive to go far beyond our customers’ expectations, and pride ourselves on making high quality garments.</div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Responsive Gallery Layout Support</h2>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend </div>'}]
+		{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'}]
     									
     	}); 
     });

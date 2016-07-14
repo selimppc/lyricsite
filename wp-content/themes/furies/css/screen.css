@@ -2194,11 +2194,11 @@ ul.flickr li
 
 #slidecaption
 {
-	width: auto !important;
+	width: 71.8% !important;
 	margin: 0 0 0 13.5%;
 	height: 80px !important;
-	background: black !important;
-	opacity: 0.4 !important;
+	background: rgba(0,0,0, 0.4);
+	/*opacity: 0.4 !important;*/
 	position: absolute;
 	bottom: 100px !important;
 	border-radius: 5px;
@@ -3106,8 +3106,9 @@ body.single-attachment p.attachment {
 	bottom:0;
 	height:35px;
 	width:100%;
-	background: black;
-	opacity: 0.4;
+	/*background: black;
+	opacity: 0.4;*/
+	background: rgba(0,0,0, 0.4);
 	color: #fff;
 	text-align: left;
 
