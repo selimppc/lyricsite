@@ -2201,7 +2201,7 @@ ul.flickr li
 	opacity: 0.4 !important;
 	position: absolute;
 	bottom: 100px !important;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 #gallery_caption
@@ -2215,7 +2215,7 @@ ul.flickr li
 	text-shadow: 1px 1px 1px red;
 	margin: auto;
 	width: 960px;
-	margin: 10px 10px 0px 10px !important;
+
 }
 
 #gallery_caption a
@@ -3104,14 +3104,33 @@ body.single-attachment p.attachment {
 .site-footer {
 	position:fixed;
 	bottom:0;
-	height:20px;
+	height:35px;
 	width:100%;
 	background: black;
 	opacity: 0.4;
 	color: #fff;
-	padding: 10px 0;
 	text-align: left;
-	text-align: left;
-	padding: 0 0 15px 20px;
-	/*margin-left:16%;*/
+
+
 }
+
+.text-center {
+	padding-top: 8px !important;
+	padding-left: 10px;
+}
+
+.social_wrapper2{
+	width:35%;
+	float:right;
+	position: absolute;
+	top: 5px;
+	right: 0;
+
+}
+
+.site-footer .social_wrapper2 ul{list-style:none;}
+
+
+
+.social_wrapper2 ul li{float:right;margin-right:10px;}
+.social_wrapper2 ul li img{width:20px;}
