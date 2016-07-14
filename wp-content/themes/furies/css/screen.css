@@ -3120,11 +3120,11 @@ body.single-attachment p.attachment {
 }
 
 .social_wrapper2{
-	width:35%;
-	float:right;
+	width:50%;
+	float:none;
 	position: absolute;
-	top: 5px;
-	right: 0;
+	top: 8px;
+	right: 0px;
 
 }
 
@@ -3134,3 +3134,4 @@ body.single-attachment p.attachment {
 
 .social_wrapper2 ul li{float:right;margin-right:10px;}
 .social_wrapper2 ul li img{width:20px;}
+
