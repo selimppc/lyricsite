@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a593ec8-944a-4106-8350-73df85ff6444" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/-font-b-Width-b-font-20MM-10yard-lot-embroidered-lace-trim-french-ruban-dentelle-ribbon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/1944-Hand-Sewing-Thimble.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/High-Quality-Downproof-Nylon-Fabric-for-Garments.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/IMG_7068.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/Sealand-Textile-garments2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/fabrics.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-555.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/maxresdefault.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-1.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/images/image-1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-2.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/images/image-2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-3.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/images/image-3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-4.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/images/image-4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/images/image-5.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/images/image-5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.html" afterPath="$PROJECT_DIR$/gallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php" afterPath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php" afterPath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php" afterPath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php" afterPath="$PROJECT_DIR$/wp-content/themes/furies/templates/script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lyricsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,63 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.730337">
-              <caret line="73" column="43" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio_filterable.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/portfolio_filterable.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.22472">
-              <caret line="454" column="20" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31525424">
-              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="youtube_video.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/youtube_video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9550562">
-              <caret line="127" column="33" selection-start-line="90" selection-start-column="28" selection-end-line="127" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.78571427">
-              <caret line="1" column="81" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.4779661">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -143,9 +84,9 @@
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/blog.html" />
         <option value="$PROJECT_DIR$/portfolio_filterable.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/furies/templates/script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php" />
       </list>
     </option>
@@ -346,7 +287,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18153118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.83504343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -512,14 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/custom-css.php-ver=1.4.2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -536,24 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07457627">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portfolio_filterable.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.22472">
-          <caret line="454" column="20" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/youtube_video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.9550562">
@@ -564,23 +479,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.730337">
+        <state vertical-scroll-proportion="0.2911153">
           <caret line="73" column="43" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php">
+    <entry file="file://$PROJECT_DIR$/portfolio_filterable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037288137">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.17580341">
+          <caret line="454" column="20" selection-start-line="454" selection-start-column="20" selection-end-line="454" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|1blur_bg.jpg&amp;ver=1.4.2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.78571427">
+        <state vertical-scroll-proportion="0.07457627">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2011|10|2blur_bg.jpg&amp;ver=1.4.2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07457627">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-static-bg-bg_url=http-||themes.themegoods2.com|furies|wp-content|uploads|2012|11|5740192268_a99387864d_o_blur.png&amp;ver=1.4.2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037288137">
           <caret line="1" column="81" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
           <folding />
         </state>
@@ -588,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/furies/templates/script-supersized-gallery-gallery_id=6&amp;ver=1.4.2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31525424">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.4779661">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding />
         </state>
       </provider>
