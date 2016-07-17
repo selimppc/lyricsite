@@ -33,15 +33,30 @@ jQuery(function($){
     		slides 					:  	[		//Slideshow Images
 
     	<!--{image : 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Orient Trading & Builders Ltd.</h2>We sell high-end surplus building materials, and select quality Architectural Salvage that is very unique.</div>'},-->
-{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-1.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Orient Trading & Builders Ltd.</h2>We sell high-end surplus building materials, and select quality Architectural Salvage that is very unique.</div>'},
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-1.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/5740192268_a99387864d_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Orient Trading & Builders Ltd.</h2>We sell high-end surplus building materials, and select quality Architectural Salvage that is very unique.</div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-2.gif', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907-150x150.jpg', title: '<div id="gallery_caption"><h2>Reliable Machinaries Ltd.</h2>Reliable Machinery can provide turn-key services for customers, from equipment manufacture and production to operator training.</div>'},
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-2.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/shutterstock_74370907-150x150.jpg', title: '<div id="gallery_caption"><h2>Reliable Machinaries Ltd.</h2>Reliable Machinery can provide turn-key services for customers, from equipment manufacture and production to operator training.</div>'},
 
 		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-3.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/2887703473_5266d3dc02_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Industries (Pvt.) Ltd.</h2>Lyric Group is one of the largest Bangladeshi industrial conglomerates. </div>'},
 
 		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-4.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/4111298019_435f091097_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Apparels Ltd.</h2>Lyric Group we strive to go far beyond our customers’ expectations, and pride ourselves on making high quality garments.</div>'},
 
-		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-5.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'}]
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-5.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-6.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-7.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-8.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-9.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-10.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-11.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+
+		{image : 'http://localhost/lyricsite/wp-content/uploads/images/image-12.jpg', thumb: 'http://localhost/lyricsite/wp-content/uploads/2013/02/3592209668_31de73a5f1_o-150x150.jpg', title: '<div id="gallery_caption"><h2>Lyric Embroidery Ltd.</h2>We introduce Lyric Embroidery Ltd. is a Manufacturing concern services for apparel buyers from abroad.</div>'},
+]
     									
     	}); 
     });
