@@ -1,0 +1,12 @@
+.color-1 {color:#00a0c6 !important;}
+.color-2 {color:#f0027f !important;}
+.color-3 {color:#4dd0e1 !important;}
+
+a.link-1 { color:#00a0c6 !important;}
+a.link-1:hover { color:#f0027f !important;}
+a.link-2 { color:#f0027f !important;}
+a.link-2:hover { color:#00a0c6 !important;}
+
+.bg-1 { background: #00a0c6 !important;}
+.bg-2 { background: #f0027f !important;}
+.bg-3 { background: #4dd0e1 !important;}
