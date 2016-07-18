@@ -157,49 +157,49 @@
 	<div class="vc_col-sm-12 wpb_column vc_column_container ">
 		<div class="wpb_wrapper">
 			<div class="slider-panel">
-	<div id="flex_slider_1" class="slider-panel-wrapper  flexslider ">
-		<ul class="slides">
-			<li  data-image-src="wp-content/uploads/image-1.jpg" >
-				<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
-                <div class="flex-caption">
-                  	<br />
-					<h1 class="slide-extralarge-title">Lyric Industries (Pvt.) Ltd.</h1><br />
-					<div class="slide-description-small">Stiam consequat neque rutrum pretium<br />necar ullamcorper justo
-					</div>
-					<br />
-                </div>
-            </li>
-			<li  data-image-src="wp-content/uploads/image-4.jpg" >
-				<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
-                <div class="flex-caption">
-                  	<br />
-					<h1 class="slide-large-title">Lyric Apparels Ltd</h1><br />
-					<div class="slide-description-small">Vestibulum ante ipsum primis. Duis at<br />lectus quis Duis interdum sem sed semper arcu</div><br />
-						<div data-height="15"></div><br />
-						<div class="button raised icon blue ripple"><br />
-						<div><a href="about-us/index.html"><i class="fa fa-folder-open"></i>More Details</a></div><br />
-					</div>
-					<br />
-                </div>
-            </li>
-			<li  data-image-src="wp-content/uploads/image-3.jpg" >
-				<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
-                <div class="flex-caption">
-                  	<br />
-					<h1 class="slide-large-title">Lyric Embroidery Ltd.</h1><br />
-					<div class="slide-description-small">Vestibulum ante ipsum primis enim sit euismod<br />Aenean sodales sodales eros</div><br />
-                 </div>
-            </li>
-			<li  data-image-src="wp-content/uploads/slider-img03.jpg" >
-				<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
-                <div class="flex-caption">
-                  	<br />
-					<h1 class="slide-large-title">Glory Fabrics Industries.</h1><br />
-					<div class="slide-description-small">Vestibulum ante ipsum primis enim sit euismod<br />Aenean sodales sodales eros</div><br />
-                 </div>
-            </li>
-		</ul>
-	</div>
+				<div id="flex_slider_1" class="slider-panel-wrapper  flexslider ">
+					<ul class="slides">
+						<li  data-image-src="wp-content/uploads/image-1.jpg" >
+							<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
+							<div class="flex-caption">
+								<br />
+								<h1 class="slide-extralarge-title">Lyric Industries (Pvt.) Ltd.</h1><br />
+								<div class="slide-description-small">Stiam consequat neque rutrum pretium<br />necar ullamcorper justo
+								</div>
+								<br />
+							</div>
+						</li>
+						<li  data-image-src="wp-content/uploads/image-4.jpg" >
+							<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
+							<div class="flex-caption">
+								<br />
+								<h1 class="slide-large-title">Lyric Apparels Ltd</h1><br />
+								<div class="slide-description-small">Vestibulum ante ipsum primis. Duis at<br />lectus quis Duis interdum sem sed semper arcu</div><br />
+									<div data-height="15"></div><br />
+									<div class="button raised icon blue ripple"><br />
+									<div><a href="about-us/index.html"><i class="fa fa-folder-open"></i>More Details</a></div><br />
+								</div>
+								<br />
+							</div>
+						</li>
+						<li  data-image-src="wp-content/uploads/image-3.jpg" >
+							<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
+							<div class="flex-caption">
+								<br />
+								<h1 class="slide-large-title">Lyric Embroidery Ltd.</h1><br />
+								<div class="slide-description-small">Vestibulum ante ipsum primis enim sit euismod<br />Aenean sodales sodales eros</div><br />
+							 </div>
+						</li>
+						<li  data-image-src="wp-content/uploads/slider-img03.jpg" >
+							<div class="overlay" data-bg-color="#212121" data-opacity="0.5"></div>
+							<div class="flex-caption">
+								<br />
+								<h1 class="slide-large-title">Glory Fabrics Industries.</h1><br />
+								<div class="slide-description-small">Vestibulum ante ipsum primis enim sit euismod<br />Aenean sodales sodales eros</div><br />
+							 </div>
+						</li>
+					</ul>
+				</div>
 		<!--<ul class="slide-nav">
         	<li>
             	<a class="slide-prev prev" href="prev.html"><i class="fa fa-angle-left"></i></a>
@@ -208,28 +208,31 @@
             	<a class="slide-next next" href="next.html"><i class="fa fa-angle-right"></i></a>
             </li>
         </ul>-->
-			</div><script>jQuery(window).on('load', function() {
-		 jQuery('#flex_slider_1').flexslider({
-        	controlNav: false,
-			directionNav: false,
-			slideshow: true,
-			animationSpeed:  800,
-			multipleKeyboard:  true,
-			pauseOnHover: true
-      });
-     jQuery('#flex_slider_1').parents('.scroll_section').addClass('flex_bg');
-     var bgImage = '#flex_slider_1 .slides li';
+		</div>
+			<script>
+				jQuery(window).on('load', function() {
+		 		jQuery('#flex_slider_1').flexslider({
+					controlNav:false,
+					directionNav: false,
+					slideshow: true,
+					slideshowSpeed: 3000,
+					animationSpeed:  1000,
+					multipleKeyboard:  true,
+					pauseOnHover: false
+      			});
+     			jQuery('#flex_slider_1').parents('.scroll_section').addClass('flex_bg');
+     			var bgImage = '#flex_slider_1 .slides li';
 	 
-      jQuery(bgImage).css('background-image', function () {
-		var bg = ('url(' + jQuery(this).data('image-src') + ')');
-		return bg;
-	});
-	});
-	jQuery(window).on('load resize', function() {
-		var fitHeight = jQuery(window).height();
-		var slideHeight = jQuery('#flex_slider_1');
-		slideHeight.height(fitHeight);
-	});
+      			jQuery(bgImage).css('background-image', function () {
+					var bg = ('url(' + jQuery(this).data('image-src') + ')');
+					return bg;
+				});
+			});
+			jQuery(window).on('load resize', function() {
+				var fitHeight = jQuery(window).height();
+				var slideHeight = jQuery('#flex_slider_1');
+				slideHeight.height(fitHeight);
+			});
 	</script>
 	<div class="mouse-scroll">
         	<a id="moveSectionDown" href="index.html#">
@@ -451,200 +454,195 @@ Sed fringilla egestas condimentum morbi ut urna nec nunc pretium iaculis duis po
 	</div> 
 		</div> 
 	</div> 
-</div></div></div><div id="portfolio-section" class="section panel-5  portfolio-section"  data-color="" data-bg-color="#f7f7f7" data-image-src="http://wizard-business.beantownthemes.com/wp-content/uploads/home-portfolio-bg.jpg"> <div class="overlay" data-bg-color="#f7f7f7" data-opacity="0.8"></div><div class="container-fluid">	<div  class="vc_row wpb_row vc_row-fluid">
+</div>
+</div>
+</div>
+<div id="portfolio-section" class="section panel-5  portfolio-section"  data-color="" data-bg-color="#f7f7f7" data-image-src="http://wizard-business.beantownthemes.com/wp-content/uploads/home-portfolio-bg.jpg"> <div class="overlay" data-bg-color="#f7f7f7" data-opacity="0.8"></div><div class="container-fluid">	<div  class="vc_row wpb_row vc_row-fluid">
 	<div class="vc_col-sm-12 wpb_column vc_column_container ">
 		<div class="wpb_wrapper">
-			
-	<div class="wpb_text_column wpb_content_element ">
-		<div class="wpb_wrapper">
-			<p></p>
-<div class="block-title"></p>
-<h1>Our Work</h1>
-<p>
-</div>
-<p></p>
 
-		</div> 
-	</div>    
- <div class="portfolio-panel3">
- <div id="portfolioTabs" class="portfolio-tabs-wrapper"><ul class="portfolio-tabs-list"><li>
-                    	<a href="index.html#portfolio-tabs-1">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio16-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-2">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio14-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-3">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio13-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-4">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio11-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-5">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio10-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-6">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail09-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-7">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail06-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-8">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio07-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li><li>
-                    	<a href="index.html#portfolio-tabs-9">
-                        	<span class="thumbnail-hover"></span>
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail03-211x211.jpg" alt="thumbnail" />
-                        </a>
-                    </li></ul>
-       
-                <div id="tabs_container" class="portfolio-detail-wrapper">
-					<div id="portfolio-tabs-1" class="portfolio-tabs">
+			<div class="wpb_text_column wpb_content_element ">
+				<div class="wpb_wrapper">
+					<p></p>
+					<div class="block-title"></p>
+					<h1>Our Work</h1>
+					<p>
+					</div>
+					<p></p>
 
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio16-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>UT MAURIS MAGNA</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/ut-mauris-magna-2/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-2" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio14-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>DUIS IMPERDIET EST</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/duis-imperdiet-est-2/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-3" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio13-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>SUSPENDISSE MATTIS</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/suspendisse-mattis/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-4" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio11-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>VIVAMUS CONSEQUAT</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/vivamus-consequat-2/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-5" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio10-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>CRAS EU VEHICULA</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/cras-eu-vehicula-2/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-6" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail09-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>QUISQUE VITAE SAPIEN</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/quisque-vitae-sapien-2/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-7" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail06-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>Aenean sollicitudin</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/aenean-sollicitudin/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-8" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio07-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>NULLAM SIT AMET</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/nullam-sit-amet/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                    </div>
-					<div id="portfolio-tabs-9" class="portfolio-tabs">
-
-                    	<figure class="portfolio-tabs-img">
-                        	<img src="wp-content/uploads/portfolio-panel3-thumbnail03-634x634.jpg" alt="portfolio" />
-                        </figure>
-                    
-                        <section class="portfolio-tabs-detail">
-                        	<h2>VIVAMUS CONSEQUAT</h2>
-                            <div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
-                            <div class="button raised dark-grey ripple">
-                                <a  href="flv_portfolio/vivamus-consequat/index.html">Read More Details</a>
-                            </div>
-                        </section>
-                        
-                    </div>
 				</div>
- 			</div>
- 		</div>
+			</div>
+ <div class="portfolio-panel3">
+ 	<div id="portfolioTabs" class="portfolio-tabs-wrapper">
+		 <ul class="portfolio-tabs-list">
+			<li>
+				<a href="index.html#portfolio-tabs-1">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio16-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-2">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio14-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-3">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio13-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-4">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio11-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-5">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio10-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-6">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail09-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-7">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail06-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-8">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio07-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+			<li>
+				<a href="index.html#portfolio-tabs-9">
+					<span class="thumbnail-hover"></span>
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail03-211x211.jpg" alt="thumbnail" />
+				</a>
+			</li>
+		 </ul>
+       
+		<div id="tabs_container" class="portfolio-detail-wrapper">
+			<div id="portfolio-tabs-1" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio16-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>UT MAURIS MAGNA</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/ut-mauris-magna-2/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-2" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio14-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>DUIS IMPERDIET EST</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/duis-imperdiet-est-2/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-3" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio13-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>SUSPENDISSE MATTIS</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/suspendisse-mattis/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-4" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio11-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>VIVAMUS CONSEQUAT</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/vivamus-consequat-2/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-5" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio10-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>CRAS EU VEHICULA</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/cras-eu-vehicula-2/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-6" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail09-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>QUISQUE VITAE SAPIEN</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/quisque-vitae-sapien-2/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-7" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail06-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>Aenean sollicitudin</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/aenean-sollicitudin/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-8" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio07-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>NULLAM SIT AMET</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/nullam-sit-amet/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+			<div id="portfolio-tabs-9" class="portfolio-tabs">
+				<figure class="portfolio-tabs-img">
+					<img src="wp-content/uploads/portfolio-panel3-thumbnail03-634x634.jpg" alt="portfolio" />
+				</figure>
+				<section class="portfolio-tabs-detail">
+					<h2>VIVAMUS CONSEQUAT</h2>
+					<div class="item-list-description"> Worem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis condimentum ultricies. Cras non enim et augue</div>
+					<div class="button raised dark-grey ripple">
+						<a  href="flv_portfolio/vivamus-consequat/index.html">Read More Details</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 	<div class="wpb_text_column wpb_content_element ">
@@ -657,7 +655,10 @@ Sed fringilla egestas condimentum morbi ut urna nec nunc pretium iaculis duis po
 	</div> 
 		</div> 
 	</div> 
-</div></div></div><div id="ourclients-section" class="section panel-6  ourclients-section"  data-color="" data-bg-color="" data-image-src=""> <div class="container">	<div  class="vc_row wpb_row vc_row-fluid">
+</div>
+</div>
+</div>
+	<div id="ourclients-section" class="section panel-6  ourclients-section"  data-color="" data-bg-color="" data-image-src=""> <div class="container">	<div  class="vc_row wpb_row vc_row-fluid">
 	<div class="vc_col-sm-12 wpb_column vc_column_container ">
 		<div class="wpb_wrapper">
 			
