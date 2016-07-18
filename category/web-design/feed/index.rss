@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Web Design &#8211; Wizard Business Theme</title>
+	<atom:link href="http://wizard-business.beantownthemes.com/category/web-design/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wizard-business.beantownthemes.com</link>
+	<description></description>
+	<lastBuildDate>Sat, 16 Jul 2016 11:27:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.4</generator>
+	<item>
+		<title>Lorem ipsum dolor</title>
+		<link>http://wizard-business.beantownthemes.com/lorem-ipsum-dolor/</link>
+		<comments>http://wizard-business.beantownthemes.com/lorem-ipsum-dolor/#comments</comments>
+		<pubDate>Sat, 20 Jun 2015 06:33:29 +0000</pubDate>
+		<dc:creator><![CDATA[BeantownThemes]]></dc:creator>
+				<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[dolor sit amet]]></category>
+		<category><![CDATA[Lorem ipsum]]></category>
+
+		<guid isPermaLink="false">http://wizard-business.beantownthemes.com/?p=252</guid>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus quis, rutrum bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut <a href='http://wizard-business.beantownthemes.com/lorem-ipsum-dolor/' title='read more!'>...</a>]]></description>
+				<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mauris magna, lacinia ac purus quis, rutrum bibendum leo. Nullam sit amet nibh eu odio ornare laoreet. Duis imperdiet est ut tristique auctor. Suspendisse mattis dolor condimentum ultricies enim et augue facilisis lacinia nec a turpis</p>
+]]></content:encoded>
+			<wfw:commentRss>http://wizard-business.beantownthemes.com/lorem-ipsum-dolor/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Aenean et tortor vitae</title>
+		<link>http://wizard-business.beantownthemes.com/aenean-et-tortor-vitae/</link>
+		<comments>http://wizard-business.beantownthemes.com/aenean-et-tortor-vitae/#comments</comments>
+		<pubDate>Sat, 20 Jun 2015 06:17:46 +0000</pubDate>
+		<dc:creator><![CDATA[BeantownThemes]]></dc:creator>
+				<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Web Design]]></category>
+		<category><![CDATA[Aliquam]]></category>
+		<category><![CDATA[ullamcorper]]></category>
+
+		<guid isPermaLink="false">http://wizard-business.beantownthemes.com/?p=248</guid>
+		<description><![CDATA[Sed ac condimentum nulla, quis semper arcu. Sed ac erat sit amet enim euismod faucibus. Quisque non lobortis arcu. Fusce adipiscing neque sed arcu rutrum pretium. Phasellus ac viverra arcu. <a href='http://wizard-business.beantownthemes.com/aenean-et-tortor-vitae/' title='read more!'>...</a>]]></description>
+				<content:encoded><![CDATA[<p>Sed ac condimentum nulla, quis semper arcu. Sed ac erat sit amet enim euismod faucibus. Quisque non lobortis arcu. Fusce adipiscing neque sed arcu rutrum pretium. Phasellus ac viverra arcu. Duis ullamcorper leo nec nunc condimentum, non dictum erat blandit. Etiam consequat enim id leo dictum</p>
+]]></content:encoded>
+			<wfw:commentRss>http://wizard-business.beantownthemes.com/aenean-et-tortor-vitae/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

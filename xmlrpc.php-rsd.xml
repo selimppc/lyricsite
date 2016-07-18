@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
   <service>
     <engineName>WordPress</engineName>
-    <engineLink>http://wordpress.org/</engineLink>
-    <homePageLink>http://themes.themegoods2.com/furies</homePageLink>
+    <engineLink>https://wordpress.org/</engineLink>
+    <homePageLink>http://wizard-business.beantownthemes.com</homePageLink>
     <apis>
-      <api name="WordPress" blogID="1" preferred="true" apiLink="http://themes.themegoods2.com/furies/xmlrpc.php" />
-      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://themes.themegoods2.com/furies/xmlrpc.php" />
-      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://themes.themegoods2.com/furies/xmlrpc.php" />
-      <api name="Blogger" blogID="1" preferred="false" apiLink="http://themes.themegoods2.com/furies/xmlrpc.php" />
-          </apis>
+      <api name="WordPress" blogID="1" preferred="true" apiLink="http://wizard-business.beantownthemes.com/xmlrpc.php" />
+      <api name="Movable Type" blogID="1" preferred="false" apiLink="http://wizard-business.beantownthemes.com/xmlrpc.php" />
+      <api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://wizard-business.beantownthemes.com/xmlrpc.php" />
+      <api name="Blogger" blogID="1" preferred="false" apiLink="http://wizard-business.beantownthemes.com/xmlrpc.php" />
+      	<api name="WP-API" blogID="1" preferred="false" apiLink="http://wizard-business.beantownthemes.com/wp-json/" />
+	    </apis>
   </service>
 </rsd>
