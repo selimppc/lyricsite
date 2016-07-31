@@ -44,10 +44,31 @@ if(isset($post->ID))$postid = $post->ID; global $wp_query;
  if( is_single()){$postid=get_the_ID();	} if(is_home() || is_archive() || is_search())  {$out_title=get_the_title( get_option('page_for_posts', true));$postid=olida_get_page_id($out_title);}
 }
 ?>
+<style>
+    .over-no {
+        position: absolute;
+        left: 100px;
+        top: 25px;
+        z-index: 2;
+    }
+    .over-no img{
+        width: 120px;
+    }
+</style>
+
+<div class="over-no">
+    <?php $lurl=get_home_url();if(ot_get_option("logo_url")) {$lurl=ot_get_option("logo_url"); }
+    $logo=ot_get_option("logo");   if($logo==''){$logo= THEME_URL . 'images/logo.png';}
+    $logo_w=ot_get_option("logo_w");
+    $logo_h=ot_get_option("logo_h");
+    ?>
+    <a href="<?php echo esc_url($lurl); ?>" class="navbar-brand">
+        <img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" src="<?php echo esc_attr($logo); ?>" <?php if($logo_w!=''){ ?>width="<?php echo esc_attr($logo_w); ?>" <?php } ?> <?php if($logo_h!=''){ ?> height="<?php echo esc_attr($logo_h); ?>" <?php } ?>  /></a>
+</div>
+
 
 <!--Main Menu Wrapper Start-->
 <div id="main-menu" class="left">
-
 	<!--Menu Burger-->
     <div class="nav-open">
         <a href="#" class="nav-btn" data-action="open">
@@ -60,6 +81,7 @@ if(isset($post->ID))$postid = $post->ID; global $wp_query;
             </div>
         </a>
     </div>
+
     
     <!--Sidebar Navigation Start-->
 	<div class="sidebar-nav">

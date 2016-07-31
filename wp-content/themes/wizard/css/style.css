@@ -1651,11 +1651,11 @@ blockquote.blockquote2 > span ~ span:before {
 	background-position: center center;*/
 
 	background-position: 0px 0px;
-	animation: animatedBackground 50s linear infinite;
-	-moz-animation: animatedBackground 50s linear infinite;
-	-webkit-animation: animatedBackground 50s linear infinite;
-	-ms-animation: animatedBackground 50s linear infinite;
-	-o-animation: animatedBackground 50s linear infinite;
+	animation: animatedBackground 1s linear infinite;
+	-moz-animation: animatedBackground 10s linear infinite;
+	-webkit-animation: animatedBackground 10s linear infinite;
+	-ms-animation: animatedBackground 10s linear infinite;
+	-o-animation: animatedBackground 10s linear infinite;
 }
 
 
