@@ -299,6 +299,7 @@ h6 {
 	width: 100%;
 	padding: 0 30px;
 	color: #fff;
+	background-color: #800000;
 }
 
 .button a:hover,
@@ -319,7 +320,7 @@ h6 {
 }
 
 .button.blue {
-	background-color: #00acc1;
+	background-color: #880000;
 }
 
 .button.green {
@@ -426,11 +427,11 @@ h6 {
 }
 
 .button.raised.icon.blue > div:before {
-	background-color: #00838f;
+	background-color: #800000;
 }
 
 .button.raised.icon.blue > div:after {
-	background-color: #4dd0e1;
+	background-color: #580000;
 }
 
 .button.raised.icon.green > div:before {
@@ -5699,3 +5700,58 @@ img.aligncenter,
 
 .single-post .inner-wrapper {max-width:780px}
 .single-post .inner-wrapper div.wp-caption, .inner-wrapper img {max-width:100%}
+
+
+.page-header-wrap{
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
