@@ -1624,11 +1624,40 @@ blockquote.blockquote2 > span ~ span:before {
 /********************************************
 6.0 Slide image panel
 *********************************************/
-.slider-panel-wrapper .slides li {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -200px 0; }
 }
+@-moz-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -200px 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -200px 0; }
+}
+@-ms-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -200px 0; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -200px 0; }
+}
+
+.slider-panel-wrapper .slides li {
+	/*background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;*/
+
+	background-position: 0px 0px;
+	animation: animatedBackground 50s linear infinite;
+	-moz-animation: animatedBackground 50s linear infinite;
+	-webkit-animation: animatedBackground 50s linear infinite;
+	-ms-animation: animatedBackground 50s linear infinite;
+	-o-animation: animatedBackground 50s linear infinite;
+}
+
 
 .flex-caption {
 	position: relative;
@@ -5705,50 +5734,6 @@ img.aligncenter,
 .page-header-wrap{
 	height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
