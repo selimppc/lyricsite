@@ -1,13 +1,13 @@
 /*
- Theme Name: Wizard
- Theme URI: http://wizard.beantownthemes.com/
- Description: Fullpage Portfolio WordPress Theme
- Author: Fialovy & BeantownThemes
- Author URI: http://themeforest.net/user/BeantownThemes
+ Theme Name: Lyric-Group
+ Theme URI: http://lyricgroup.com.bd/
+ Description: Corporate Theme for Business
+ Author: Edu Tech Solutions
+ Author URI: http://EduTechSolutionsBD.com
  Version: 1.8.5
  License: GNU General Public License
- Tags: fluid-layout, fixed-layout, translation-ready, microformats, rtl-language-support, dark, light, white, black, gray, one-column, two-columns, right-sidebar,  custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready
- License URI: license.txt
+ Tags: Software solutions
+ License URI: http://EduTechSolutionsBD.com/lyricgroup/license.txt
  */
 
 /* wordpress classes*/
@@ -176,3 +176,16 @@ span.rss-date {display:block;font-weight:normal}
         display: inline-block;
 }
 #fullpage .section{overflow:visible;}
+
+/*  Custom    */
+.over-no {
+	position: absolute;
+	left: 100px;
+	top: 25px;
+	z-index: 2;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 80px;
+}
+.over-no img{
+	width: 140px;
+}

@@ -44,17 +44,6 @@ if(isset($post->ID))$postid = $post->ID; global $wp_query;
  if( is_single()){$postid=get_the_ID();	} if(is_home() || is_archive() || is_search())  {$out_title=get_the_title( get_option('page_for_posts', true));$postid=olida_get_page_id($out_title);}
 }
 ?>
-<style>
-    .over-no {
-        position: absolute;
-        left: 100px;
-        top: 25px;
-        z-index: 2;
-    }
-    .over-no img{
-        width: 120px;
-    }
-</style>
 
 <div class="over-no">
     <?php $lurl=get_home_url();if(ot_get_option("logo_url")) {$lurl=ot_get_option("logo_url"); }

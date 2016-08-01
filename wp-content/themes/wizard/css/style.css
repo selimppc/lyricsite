@@ -1651,7 +1651,7 @@ blockquote.blockquote2 > span ~ span:before {
 	background-position: center center;*/
 
 	background-position: 0px 0px;
-	animation: animatedBackground 1s linear infinite;
+	animation: animatedBackground 10s linear infinite;
 	-moz-animation: animatedBackground 10s linear infinite;
 	-webkit-animation: animatedBackground 10s linear infinite;
 	-ms-animation: animatedBackground 10s linear infinite;
@@ -3528,6 +3528,8 @@ video::-webkit-media-controls {
 .footer-logo img {
 	max-width: 100%;
 	height: auto;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 110px;
 }
 
 .footer-description {
