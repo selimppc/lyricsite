@@ -95,7 +95,8 @@ if(isset($post->ID))$postid = $post->ID; global $wp_query;
 			$logo_h=ot_get_option("logo_h");
 			?>
         	<a href="<?php echo esc_url($lurl); ?>" class="navbar-brand">
-        		<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" src="<?php echo esc_attr($logo); ?>" <?php if($logo_w!=''){ ?>width="<?php echo esc_attr($logo_w); ?>" <?php } ?> <?php if($logo_h!=''){ ?> height="<?php echo esc_attr($logo_h); ?>" <?php } ?>  /></a>
+        		<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" src="<?php echo esc_attr($logo); ?>" <?php if($logo_w!=''){ ?>width="<?php echo esc_attr($logo_w); ?>" <?php } ?> <?php if($logo_h!=''){ ?> height="<?php echo esc_attr($logo_h); ?>" <?php } ?> style="background:#fff; border-radius:52%;"  />
+            </a>
             </div>
             <!--Logo End-->
             
